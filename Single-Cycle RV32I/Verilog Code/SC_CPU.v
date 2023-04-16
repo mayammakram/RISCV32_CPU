@@ -104,10 +104,4 @@ NbitRCA #(32)instPC_plus_4 ( .A(PC), .B(4), .Cin(1'b0), .sum(PC_plus_4), .Cout(C
 
 MUXfourXone instNextPCMUX (.a(32'b0), .b(target_add), .c(ALU_out), .d(PC_plus_4), .sel({And_out, ALUjump}), .out(nextPC));
 
-//2X1 MUX for Target Address & PC + 4 to get middle PC (PC)
-//MUX #(32) instNextPCFirstMUX (.a(target_add), .b(PC_plus_4), .sel(And_out), .c(middlenextPC));
-
-////2X1 MUX for middle PC and JAlR result
-//MUX #(32) instNextPCSecMUX (.a(ALU_out), .b(middlenextPC), .sel(ALUjump), .c(nextPC));
-
 endmodule
