@@ -1,9 +1,9 @@
-## Single-Cycle RV32I
+## Single-Cycle RV32I Implementation
 The repo contains the full implementation of the RV32I with all forty instructions as stated in the ISA Specifications: Volume 1, Unprivileged Specification version 20191213. The top testbench 
-named “pipelined_CPU_tb.v” is included to simulate the test program. The Program counter, register file, and data memory were mainly traced to check and validate the code when testing.
+named “SC_CPU_tb.v” is included to simulate the test program. The Program counter, register file, and data memory were mainly traced to check and validate the code when testing.
 
 ### Instructions:
-In order to test other programs, the program instructions should be written in a hex file in hexadecimal format. Next, the file path in the Instruction Memory (InstMem.v) should be updated with the file of the new program. Finally, run the simulation with “pipelined_CPU_tb.v” targeted as the top simulation source to view the waveform of the program.
+In order to test other programs, the program instructions should be written in a hex file in hexadecimal format. Next, the file path in the Instruction Memory (InstMem.v) should be updated with the file of the new program. Finally, run the simulation with “SC_CPU_tb.v” targeted as the top simulation source to view the waveform of the program.
 
 ### Release Notes:
 1. Instruction memory is not byte-addressable
