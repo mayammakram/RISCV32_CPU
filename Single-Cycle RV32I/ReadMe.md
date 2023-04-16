@@ -1,4 +1,4 @@
-## Single-Cycle RV32I
+## Single-Cycle RV32I Implementation
 The repo contains the full implementation of the RV32I with all forty instructions as stated in the ISA Specifications: Volume 1, Unprivileged Specification version 20191213. The top testbench 
 named “pipelined_CPU_tb.v” is included to simulate the test program. The Program counter, register file, and data memory were mainly traced to check and validate the code when testing.
 
