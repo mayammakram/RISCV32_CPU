@@ -1,0 +1,13 @@
+ADDI x1, x0, 5
+ADDI x2, x0, 10
+SLLI x3, x1, 2
+ADDI x4, x0, 6
+ADDI x5, x0, 12
+ADD x6, x4, x5
+ADD x12, x6, x6
+SRAI x7, x12, 2
+SLT x8, x1, x4
+ADD x9, x7, x8
+EBREAK
+ADDI x10, x5, 8
+ANDI x11, x8, 0
