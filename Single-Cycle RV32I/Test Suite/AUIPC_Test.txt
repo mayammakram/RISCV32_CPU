@@ -1,0 +1,2 @@
+LUI x5, 4
+AUIPC x6, 4

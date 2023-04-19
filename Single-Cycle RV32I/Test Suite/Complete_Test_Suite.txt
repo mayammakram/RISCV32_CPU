@@ -1,0 +1,89 @@
+# R-Format instructions
+addi x1, x0, 5       # Load value 5 into register x1
+addi x2, x0, 10      # Load value 10 into register x2
+
+add x3, x1, x2 # Add x1 and x2, store result in x3
+# Result: x3 = 15
+
+sub x4, x1, x2 # Subtract x2 from x1, store result in x4
+# Result: x4 = -5
+
+and x5, x1, x2 # Perform bitwise AND of x1 and x2, store result in x5
+# Result: x5 = 0
+
+or x6, x1, x2  # Perform bitwise OR of x1 and x2, store result in x6
+# Result: x6 = 15
+
+xor x7, x1, x2 # Perform bitwise XOR of x1 and x2, store result in x7
+# Result: x7 = 15
+
+slt x8, x1, x2 # Set x8 to 1 if x1 < x2, else set x8 to 0
+# Result: x8 = 1
+
+# I-Format instructions
+addi x9, x0, 2       # Load value 2 into register x9
+
+addi x10, x1, 3 # Add immediate value 3 to x1, store result in x10
+# Result: x10 = 8
+
+andi x11, x1, 7 # Perform bitwise AND of x1 and immediate value 7, store result in x11
+# Result: x11 = 5
+
+ori x12, x1, 12 # Perform bitwise OR of x1 and immediate value 12, store result in x12
+# Result: x12 = 13
+
+xori x13, x1, 1 # Perform bitwise XOR of x1 and immediate value 1, store result in x13
+# Result: x13 = 4
+
+slti x14, x1, 4 # Set x14 to 1 if x1 < 4, else set x14 to 0
+# Result: x14 = 0
+
+# S-Format instructions
+addi x15, x0, 20     # Load value 20 into register x15
+
+sw x15, 0(x2)  # Store the value of x15 into memory starting at address x2 + 0
+#mem [10] = 20
+lw x16, 0(x2)  # Load the value from memory at address x2 + 0 into x16
+# Result: x16 = 20
+
+# SB-Format instructions
+addi x17, x0, 8      # Load value 8 into register x17
+
+beq x1, x2, label1 # If x1 equals x2, jump to label1
+addi x1, x1, 1     # If not, add 1 to x1 and continue
+label1:
+# If x1 and x2 are not equal, the program will execute the addi instruction and x1 will become 6
+
+bne x1, x2, label2 # If x1 does not equal x2, jump to label2
+addi x1, x1, 1     # If they are equal, add 1 to x1 and continue
+label2:
+# Since x1 and x2 are not equal, the program will execute the jump and x1 will become 7
+
+blt x1, x17, label3 # If x1 is less than x17, jump to label3
+addi x1, x1, 1 # If not, add 1 to x1 and continue
+label3:
+# Since x1 is less than x17, the program will execute the jump and x1 will become 8
+bge x1, x17, label4
+# equal to x17, jump to label4
+addi x1, x1, 1       # If not, add 1 to x1 and continue
+label4:
+# Since x1 is equal to x17, the program will not execute the jump and x1 will become 9
+
+# U-Format instructions
+auipc x18, 1    # Add the upper 20 bits of PC+4 with immediate 1, store result in x18
+# Result: x18 = PC+1<<12 = 4200
+
+lui x19, 4096   # Load immediate 4096 into the upper 20 bits of x19
+# Result: x19 = 4096<<12
+
+# UJ-Format instruction
+jal label5      # Jump and link to label5
+addi x20, x0, 1 # Execute this instruction after returning from jump
+label5:
+# x1 now contains the address of the jal instruction + 4 (PC+4)
+# x20 is set to 1
+addi x21, x1, 0
+jalr x1, x21, 0
+
+
+# End of program

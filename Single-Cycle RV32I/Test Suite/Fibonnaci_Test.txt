@@ -1,0 +1,19 @@
+ADDI x2, x0, 56
+ADDI x10, x0, 6
+ADDI x1, x0, 8
+ADDI x2, x2, -8
+SW x1, 4(x2)
+SW x10, 0(x2)
+SLTI x5, x10, 1
+BEQ x5, x0, x4293918720
+ADDI x10, x0, 1
+ADDI x2, x2, 8
+JALR x0, 0(x1)
+ADDI x10, x10, -1
+JAL x1, 4294967260
+ADDI x5, x10, 0
+LW x10, 0(x2)
+LW x1, 4(x2)
+ADDI x2, x2, 8
+SLL x10, x5, x5
+JALR x0, 0(x1)
