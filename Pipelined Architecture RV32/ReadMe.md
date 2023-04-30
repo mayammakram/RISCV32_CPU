@@ -3,7 +3,7 @@ The repo contains the full implementation of the RV32 with all forty instruction
 named “PP_CPU_tb.v” is included to simulate the test program. The Program counter, register file, and data memory were mainly traced to check and validate the code when testing.
 
 ### Instructions:
-In order to test other programs, the program instructions should be written in a hex file in hexadecimal format. Next, the file path in the Instruction Memory (InstMem.v) should be updated with the file of the new program. Finally, run the simulation with “SC_CPU_tb.v” targeted as the top simulation source to view the waveform of the program.
+In order to test other programs, the program instructions should be written in a hex file in hexadecimal format. Next, the file path in the Instruction Memory (InstMem.v) should be updated with the file of the new program. Finally, run the simulation with “PP_CPU_tb.v” targeted as the top simulation source to view the waveform of the program.
 
 ### Release Notes:
 1. A Single Byte-Addressable Memory is implemented
