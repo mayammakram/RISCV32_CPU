@@ -1,0 +1,152 @@
+
+*** Running vivado
+    with args -log main.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source main.tcl
+
+
+
+****** Vivado v2022.1 (64-bit)
+  **** SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+  **** IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source main.tcl -notrace
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1284.273 ; gain = 0.000
+Command: synth_design -top main -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 14356
+WARNING: [Synth 8-8895] 'PC' is already implicitly declared on line 34 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:81]
+WARNING: [Synth 8-8895] 'inst_word' is already implicitly declared on line 34 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:83]
+WARNING: [Synth 8-8895] 'PC_plus_4' is already implicitly declared on line 86 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:98]
+WARNING: [Synth 8-8895] 'nextPC' is already implicitly declared on line 86 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:99]
+WARNING: [Synth 8-8895] 'dataRead1' is already implicitly declared on line 48 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:119]
+WARNING: [Synth 8-8895] 'dataRead2' is already implicitly declared on line 48 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:120]
+WARNING: [Synth 8-8895] 'imm' is already implicitly declared on line 48 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:127]
+WARNING: [Synth 8-8895] 'target_add' is already implicitly declared on line 64 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:133]
+WARNING: [Synth 8-8895] 'cf' is already implicitly declared on line 64 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:143]
+WARNING: [Synth 8-8895] 'zf' is already implicitly declared on line 64 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:143]
+WARNING: [Synth 8-8895] 'vf' is already implicitly declared on line 64 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:143]
+WARNING: [Synth 8-8895] 'sf' is already implicitly declared on line 64 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:143]
+WARNING: [Synth 8-8895] 'ALU_out' is already implicitly declared on line 65 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:145]
+WARNING: [Synth 8-8895] 'ALUsel' is already implicitly declared on line 147 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:151]
+WARNING: [Synth 8-8895] 'MemDataRead' is already implicitly declared on line 74 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:165]
+WARNING: [Synth 8-8895] 'And_out' is already implicitly declared on line 86 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:178]
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1284.273 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'main' [C:/Users/mayamakram/Desktop/Arch_Lab/Lab_6/CPU.srcs/sources_1/new/main.v:23]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [C:/Users/mayamakram/Desktop/Arch_Lab/Lab_6/CPU.srcs/sources_1/new/main.v:25]
+INFO: [Synth 8-6157] synthesizing module 'PP_CPU' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:23]
+INFO: [Synth 8-6157] synthesizing module 'n_bit_reg_load_reset' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/n_bit_reg_load_reset.v:23]
+	Parameter N bound to: 64 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'n_bit_reg_load_reset' (0#1) [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/n_bit_reg_load_reset.v:23]
+INFO: [Synth 8-6157] synthesizing module 'n_bit_reg_load_reset__parameterized0' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/n_bit_reg_load_reset.v:23]
+	Parameter N bound to: 200 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'n_bit_reg_load_reset__parameterized0' (0#1) [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/n_bit_reg_load_reset.v:23]
+WARNING: [Synth 8-689] width (160) of port connection 'Q' does not match port width (200) of module 'n_bit_reg_load_reset__parameterized0' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:50]
+WARNING: [Synth 8-689] width (117) of port connection 'Q' does not match port width (200) of module 'n_bit_reg_load_reset__parameterized0' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:66]
+INFO: [Synth 8-6157] synthesizing module 'n_bit_reg_load_reset__parameterized1' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/n_bit_reg_load_reset.v:23]
+	Parameter N bound to: 71 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'n_bit_reg_load_reset__parameterized1' (0#1) [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/n_bit_reg_load_reset.v:23]
+WARNING: [Synth 8-689] width (73) of port connection 'data' does not match port width (71) of module 'n_bit_reg_load_reset__parameterized1' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:74]
+WARNING: [Synth 8-689] width (73) of port connection 'Q' does not match port width (71) of module 'n_bit_reg_load_reset__parameterized1' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:75]
+INFO: [Synth 8-6157] synthesizing module 'MUXfourXone' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM2/SC_CPU.srcs/sources_1/new/MUX_fourXone.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'MUXfourXone' (0#1) [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM2/SC_CPU.srcs/sources_1/new/MUX_fourXone.v:23]
+INFO: [Synth 8-6157] synthesizing module 'n_bit_reg_load_reset__parameterized2' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/n_bit_reg_load_reset.v:23]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'n_bit_reg_load_reset__parameterized2' (0#1) [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/n_bit_reg_load_reset.v:23]
+INFO: [Synth 8-6157] synthesizing module 'InstMem' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/InstMem.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'InstMem' (0#1) [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/InstMem.v:23]
+INFO: [Synth 8-6157] synthesizing module 'NbitRCA' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/N-bitRCA.v:22]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'full_adder' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/full_adder.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'full_adder' (0#1) [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/full_adder.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'NbitRCA' (0#1) [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/N-bitRCA.v:22]
+INFO: [Synth 8-6157] synthesizing module 'CU' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/CU.v:24]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/CU.v:152]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/CU.v:165]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/CU.v:27]
+INFO: [Synth 8-6155] done synthesizing module 'CU' (0#1) [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/CU.v:24]
+INFO: [Synth 8-6157] synthesizing module 'RegFile' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/RegFile.v:5]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'RegFile' (0#1) [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/RegFile.v:5]
+INFO: [Synth 8-6157] synthesizing module 'IMMGen' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/IMMGen.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'IMMGen' (0#1) [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/IMMGen.v:23]
+INFO: [Synth 8-6157] synthesizing module 'MUX' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/MUX.v:23]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'MUX' (0#1) [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/MUX.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU.v:22]
+INFO: [Synth 8-6157] synthesizing module 'shifter' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/shifter.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/shifter.v:26]
+INFO: [Synth 8-6155] done synthesizing module 'shifter' (0#1) [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/shifter.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU.v:46]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (0#1) [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU.v:22]
+INFO: [Synth 8-6157] synthesizing module 'ALU_CU' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:23]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:33]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:34]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:36]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:38]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:40]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:43]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:43]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:45]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:45]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:47]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:49]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:51]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:55]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:56]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:56]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:58]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:58]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:60]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:60]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:62]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:62]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:64]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:64]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:66]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:66]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:70]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:70]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:72]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:72]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:74]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:74]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:76]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:76]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:78]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:78]
+INFO: [Synth 8-6155] done synthesizing module 'ALU_CU' (0#1) [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:23]
+WARNING: [Synth 8-324] index 30 out of range [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:152]
+INFO: [Synth 8-6157] synthesizing module 'DataMem' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/DataMem.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/DataMem.v:37]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/DataMem.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'DataMem' (0#1) [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/DataMem.v:23]
+INFO: [Synth 8-6157] synthesizing module 'BRANCH' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM2/SC_CPU.srcs/sources_1/new/BRANCH.v:23]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM2/SC_CPU.srcs/sources_1/new/BRANCH.v:39]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM2/SC_CPU.srcs/sources_1/new/BRANCH.v:43]
+INFO: [Synth 8-6155] done synthesizing module 'BRANCH' (0#1) [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM2/SC_CPU.srcs/sources_1/new/BRANCH.v:23]
+WARNING: [Synth 8-7071] port 'sf' of module 'BRANCH' is unconnected for instance 'instbranch' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:171]
+WARNING: [Synth 8-7023] instance 'instbranch' of module 'BRANCH' has 6 connections declared, but only 5 given [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:171]
+INFO: [Synth 8-6155] done synthesizing module 'PP_CPU' (0#1) [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:23]
+INFO: [Synth 8-6157] synthesizing module 'SSD' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/Four_Digit_Seven_Segment_Driver_Optimized.v:22]
+INFO: [Synth 8-6157] synthesizing module 'BCD' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/Four_Digit_Seven_Segment_Driver_Optimized.v:82]
+INFO: [Synth 8-6155] done synthesizing module 'BCD' (0#1) [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/Four_Digit_Seven_Segment_Driver_Optimized.v:82]
+WARNING: [Synth 8-689] width (13) of port connection 'num' does not match port width (8) of module 'BCD' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/Four_Digit_Seven_Segment_Driver_Optimized.v:34]
+INFO: [Synth 8-6155] done synthesizing module 'SSD' (0#1) [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/Four_Digit_Seven_Segment_Driver_Optimized.v:22]
+WARNING: [Synth 8-689] width (32) of port connection 'num' does not match port width (13) of module 'SSD' [C:/Users/mayamakram/Desktop/Arch_Lab/Lab_6/CPU.srcs/sources_1/new/main.v:27]
+ERROR: [Synth 8-6038] cannot resolve hierarchical name for the item 'inst70' [C:/Users/mayamakram/Desktop/Arch_Lab/Lab_6/CPU.srcs/sources_1/new/main.v:35]
+ERROR: [Synth 8-6156] failed synthesizing module 'main' [C:/Users/mayamakram/Desktop/Arch_Lab/Lab_6/CPU.srcs/sources_1/new/main.v:23]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1284.273 ; gain = 0.000
+---------------------------------------------------------------------------------
+synthesize failed
+INFO: [Common 17-83] Releasing license: Synthesis
+51 Infos, 65 Warnings, 0 Critical Warnings and 3 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Vivado Synthesis failed
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 24 17:00:12 2023...

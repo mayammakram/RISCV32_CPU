@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="PP_CPU_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="PP_CPU_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="136.294 ns"></ZoomEndTime>
+      <Cursor1Time time="348.679 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="167"></NameColumnWidth>
+      <ValueColumnWidth column_width="80"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="74" />
+   <wave_markers>
+      <marker time="535000" label="" />
+      <marker time="275000" label="" />
+      <marker time="215000" label="" />
+      <marker time="225000" label="" />
+      <marker time="205000" label="" />
+      <marker time="235000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/PP_CPU_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider3">
+      <obj_property name="label">PC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/instPC/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/instPC/load" type="logic">
+      <obj_property name="ElementShortName">load</obj_property>
+      <obj_property name="ObjectShortName">load</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/instPC/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/instPC/data" type="array">
+      <obj_property name="ElementShortName">data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/instPC/Q" type="array">
+      <obj_property name="ElementShortName">Q[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Q[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/instPC/N" type="array">
+      <obj_property name="ElementShortName">N[31:0]</obj_property>
+      <obj_property name="ObjectShortName">N[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider14">
+      <obj_property name="label">RegFile</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/instRegFile/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/instRegFile/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/instRegFile/rs1" type="array">
+      <obj_property name="ElementShortName">rs1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs1[4:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/instRegFile/rs2" type="array">
+      <obj_property name="ElementShortName">rs2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs2[4:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/instRegFile/rd" type="array">
+      <obj_property name="ElementShortName">rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd[4:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/instRegFile/data" type="array">
+      <obj_property name="ElementShortName">data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/instRegFile/RegWrite" type="logic">
+      <obj_property name="ElementShortName">RegWrite</obj_property>
+      <obj_property name="ObjectShortName">RegWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/instRegFile/Readdata1" type="array">
+      <obj_property name="ElementShortName">Readdata1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Readdata1[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/instRegFile/Readdata2" type="array">
+      <obj_property name="ElementShortName">Readdata2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Readdata2[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/instRegFile/regfile" type="array">
+      <obj_property name="ElementShortName">regfile[31:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">regfile[31:0][31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/instRegFile/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/instRegFile/N" type="array">
+      <obj_property name="ElementShortName">N[31:0]</obj_property>
+      <obj_property name="ObjectShortName">N[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider122">
+      <obj_property name="label">Branch Divider</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/branch" type="logic">
+      <obj_property name="ElementShortName">branch</obj_property>
+      <obj_property name="ObjectShortName">branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/instbranch/f3" type="array">
+      <obj_property name="ElementShortName">f3[2:0]</obj_property>
+      <obj_property name="ObjectShortName">f3[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/instbranch/cf" type="logic">
+      <obj_property name="ElementShortName">cf</obj_property>
+      <obj_property name="ObjectShortName">cf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/instbranch/zf" type="logic">
+      <obj_property name="ElementShortName">zf</obj_property>
+      <obj_property name="ObjectShortName">zf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/instbranch/vf" type="logic">
+      <obj_property name="ElementShortName">vf</obj_property>
+      <obj_property name="ObjectShortName">vf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/instbranch/sf" type="logic">
+      <obj_property name="ElementShortName">sf</obj_property>
+      <obj_property name="ObjectShortName">sf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/instbranch/and_in" type="logic">
+      <obj_property name="ElementShortName">and_in</obj_property>
+      <obj_property name="ObjectShortName">and_in</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider162">
+      <obj_property name="label">MUXBranch</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/instNextPCMUX/a" type="array">
+      <obj_property name="ElementShortName">a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">a[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/instNextPCMUX/b" type="array">
+      <obj_property name="ElementShortName">b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">b[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/instNextPCMUX/c" type="array">
+      <obj_property name="ElementShortName">c[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/instNextPCMUX/d" type="array">
+      <obj_property name="ElementShortName">d[31:0]</obj_property>
+      <obj_property name="ObjectShortName">d[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/instNextPCMUX/sel" type="array">
+      <obj_property name="ElementShortName">sel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">sel[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/instNextPCMUX/out" type="array">
+      <obj_property name="ElementShortName">out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">out[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider171">
+      <obj_property name="label">idk</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/BU" type="logic">
+      <obj_property name="ElementShortName">BU</obj_property>
+      <obj_property name="ObjectShortName">BU</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/OR_out" type="logic">
+      <obj_property name="ElementShortName">OR_out</obj_property>
+      <obj_property name="ObjectShortName">OR_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/And_out" type="logic">
+      <obj_property name="ElementShortName">And_out</obj_property>
+      <obj_property name="ObjectShortName">And_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/EX_MEM_Ctrl[4]" type="logic">
+      <obj_property name="ElementShortName">[4]</obj_property>
+      <obj_property name="ObjectShortName">[4]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider1055">
+      <obj_property name="label">alu</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group1154" type="group">
+      <obj_property name="label">Bch Adder</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/instTargetAdder/A" type="array">
+      <obj_property name="ElementShortName">A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">A[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/instTargetAdder/B" type="array">
+      <obj_property name="ElementShortName">B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">B[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/instTargetAdder/Cin" type="logic">
+      <obj_property name="ElementShortName">Cin</obj_property>
+      <obj_property name="ObjectShortName">Cin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/instTargetAdder/sum" type="array">
+      <obj_property name="ElementShortName">sum[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sum[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/instTargetAdder/Cout" type="logic">
+      <obj_property name="ElementShortName">Cout</obj_property>
+      <obj_property name="ObjectShortName">Cout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/instTargetAdder/Cout_middle" type="array">
+      <obj_property name="ElementShortName">Cout_middle[30:0]</obj_property>
+      <obj_property name="ObjectShortName">Cout_middle[30:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/instTargetAdder/N" type="array">
+      <obj_property name="ElementShortName">N[31:0]</obj_property>
+      <obj_property name="ObjectShortName">N[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider1162">
+      <obj_property name="label">Imm</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/instIMMGen/IR" type="array">
+      <obj_property name="ElementShortName">IR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/instIMMGen/Imm" type="array">
+      <obj_property name="ElementShortName">Imm[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Imm[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider124">
+      <obj_property name="label">rd</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/MEM_WB_Rd" type="array">
+      <obj_property name="ElementShortName">MEM_WB_Rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_Rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/EX_MEM_Rd" type="array">
+      <obj_property name="ElementShortName">EX_MEM_Rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_Rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/ID_EX_Rd" type="array">
+      <obj_property name="ElementShortName">ID_EX_Rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_Rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/Inst_Data_Mem/a" type="array">
+      <obj_property name="ElementShortName">a[68:0]</obj_property>
+      <obj_property name="ObjectShortName">a[68:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/Inst_Data_Mem/b" type="array">
+      <obj_property name="ElementShortName">b[68:0]</obj_property>
+      <obj_property name="ObjectShortName">b[68:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/Inst_Data_Mem/sel" type="logic">
+      <obj_property name="ElementShortName">sel</obj_property>
+      <obj_property name="ObjectShortName">sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/Inst_Data_Mem/c" type="array">
+      <obj_property name="ElementShortName">c[68:0]</obj_property>
+      <obj_property name="ObjectShortName">c[68:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/Inst_Data_Mem/N" type="array">
+      <obj_property name="ElementShortName">N[31:0]</obj_property>
+      <obj_property name="ObjectShortName">N[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/PC" type="array">
+      <obj_property name="ElementShortName">PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/inst_data_MUX" type="array">
+      <obj_property name="ElementShortName">inst_data_MUX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_data_MUX[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/instDataMem/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/instDataMem/MemRead" type="logic">
+      <obj_property name="ElementShortName">MemRead</obj_property>
+      <obj_property name="ObjectShortName">MemRead</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/instDataMem/MemWrite" type="logic">
+      <obj_property name="ElementShortName">MemWrite</obj_property>
+      <obj_property name="ObjectShortName">MemWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/instDataMem/addr" type="array">
+      <obj_property name="ElementShortName">addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/instDataMem/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/instDataMem/DataFn3" type="array">
+      <obj_property name="ElementShortName">DataFn3[2:0]</obj_property>
+      <obj_property name="ObjectShortName">DataFn3[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/instDataMem/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/instDataMem/offset" type="array">
+      <obj_property name="ElementShortName">offset[7:0]</obj_property>
+      <obj_property name="ObjectShortName">offset[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PP_CPU_tb/uut/instDataMem/mem" type="array">
+      <obj_property name="ElementShortName">mem[0:250][7:0]</obj_property>
+      <obj_property name="ObjectShortName">mem[0:250][7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,1865 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Wed Apr 26 13:49:06 2023
+# Process ID: 6772
+# Current directory: C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8244 C:\Users\mayamakram\Desktop\Arch_Lab\ProjectM3\PP_CPU.xpr
+# Log file: C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/vivado.log
+# Journal file: C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3\vivado.jou
+# Running On: CSE-P07-2168-10, OS: Windows, CPU Frequency: 3600 MHz, CPU Physical cores: 4, Host memory: 34246 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.xpr
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Xilinx/Vivado/2022.1/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:sword:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/boards/board_files/sword/C.0/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.gen/sources_1'.
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.1/data/ip'.
+open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:09 . Memory (MB): peak = 1221.188 ; gain = 0.000
+update_compile_order -fileset sources_1
+set_property top PP_CPU [current_fileset]
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'PP_CPU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'PP_CPU_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj PP_CPU_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot PP_CPU_tb_behav xil_defaultlib.PP_CPU_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot PP_CPU_tb_behav xil_defaultlib.PP_CPU_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 159 differs from formal bit length 200 for port 'data' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:48]
+WARNING: [VRFC 10-3091] actual bit length 160 differs from formal bit length 200 for port 'Q' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:50]
+WARNING: [VRFC 10-3091] actual bit length 117 differs from formal bit length 200 for port 'data' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:64]
+WARNING: [VRFC 10-3091] actual bit length 117 differs from formal bit length 200 for port 'Q' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:66]
+WARNING: [VRFC 10-3091] actual bit length 73 differs from formal bit length 71 for port 'data' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:74]
+WARNING: [VRFC 10-3091] actual bit length 73 differs from formal bit length 71 for port 'Q' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:75]
+WARNING: [VRFC 10-3705] select index 30 into 'ID_EX_Func' is out of bounds [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:152]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "PP_CPU_tb_behav -key {Behavioral:sim_1:Functional:PP_CPU_tb} -tclbatch {PP_CPU_tb.tcl} -view {C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU_tb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU_tb_behav.wcfg
+source PP_CPU_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1800ns
+Immediate:         32
+Immediate:         32
+Immediate:         32
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'PP_CPU_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1800ns
+launch_simulation: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 1221.188 ; gain = 0.000
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'PP_CPU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'PP_CPU_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj PP_CPU_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'PP_CPU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot PP_CPU_tb_behav xil_defaultlib.PP_CPU_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot PP_CPU_tb_behav xil_defaultlib.PP_CPU_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 159 differs from formal bit length 200 for port 'data' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:48]
+WARNING: [VRFC 10-3091] actual bit length 160 differs from formal bit length 200 for port 'Q' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:50]
+WARNING: [VRFC 10-3091] actual bit length 117 differs from formal bit length 200 for port 'data' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:64]
+WARNING: [VRFC 10-3091] actual bit length 117 differs from formal bit length 200 for port 'Q' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:66]
+WARNING: [VRFC 10-3091] actual bit length 73 differs from formal bit length 71 for port 'data' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:74]
+WARNING: [VRFC 10-3091] actual bit length 73 differs from formal bit length 71 for port 'Q' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:75]
+WARNING: [VRFC 10-3705] select index 30 into 'ID_EX_Func' is out of bounds [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:152]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+Immediate:         32
+Immediate:         32
+Immediate:         32
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1221.188 ; gain = 0.000
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'PP_CPU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj PP_CPU_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'PP_CPU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot PP_CPU_tb_behav xil_defaultlib.PP_CPU_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot PP_CPU_tb_behav xil_defaultlib.PP_CPU_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 159 differs from formal bit length 200 for port 'data' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:48]
+WARNING: [VRFC 10-3091] actual bit length 160 differs from formal bit length 200 for port 'Q' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:50]
+WARNING: [VRFC 10-3091] actual bit length 117 differs from formal bit length 200 for port 'data' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:64]
+WARNING: [VRFC 10-3091] actual bit length 117 differs from formal bit length 200 for port 'Q' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:66]
+WARNING: [VRFC 10-3091] actual bit length 73 differs from formal bit length 71 for port 'data' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:74]
+WARNING: [VRFC 10-3091] actual bit length 73 differs from formal bit length 71 for port 'Q' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:75]
+WARNING: [VRFC 10-3705] select index 30 into 'ID_EX_Func' is out of bounds [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:152]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Time resolution is 1 ps
+Immediate:         32
+Immediate:         32
+Immediate:         32
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1226.492 ; gain = 0.000
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'PP_CPU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj PP_CPU_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/defines.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_CU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM2/SC_CPU.srcs/sources_1/new/BRANCH.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BRANCH
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/CU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/DataMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/IMMGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IMMGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/InstMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/MUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM2/SC_CPU.srcs/sources_1/new/MUX_fourXone.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUXfourXone
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/N-bitRCA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NbitRCA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PP_CPU
+WARNING: [VRFC 10-2938] 'PC' is already implicitly declared on line 34 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:81]
+WARNING: [VRFC 10-2938] 'inst_word' is already implicitly declared on line 34 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:83]
+WARNING: [VRFC 10-2938] 'PC_plus_4' is already implicitly declared on line 86 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:98]
+WARNING: [VRFC 10-2938] 'nextPC' is already implicitly declared on line 86 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:99]
+WARNING: [VRFC 10-2938] 'dataRead1' is already implicitly declared on line 48 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:119]
+WARNING: [VRFC 10-2938] 'dataRead2' is already implicitly declared on line 48 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:120]
+WARNING: [VRFC 10-2938] 'imm' is already implicitly declared on line 48 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:127]
+WARNING: [VRFC 10-2938] 'target_add' is already implicitly declared on line 64 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:133]
+WARNING: [VRFC 10-2938] 'cf' is already implicitly declared on line 64 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:143]
+WARNING: [VRFC 10-2938] 'ALU_out' is already implicitly declared on line 65 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:145]
+WARNING: [VRFC 10-2938] 'ALUsel' is already implicitly declared on line 147 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:151]
+WARNING: [VRFC 10-2938] 'MemDataRead' is already implicitly declared on line 74 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:165]
+WARNING: [VRFC 10-2938] 'And_out' is already implicitly declared on line 86 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:178]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/RegFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/n_bit_reg_load_reset.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module n_bit_reg_load_reset
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/shifter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shifter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sim_1/new/PP_CPU_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PP_CPU_tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'PP_CPU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot PP_CPU_tb_behav xil_defaultlib.PP_CPU_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot PP_CPU_tb_behav xil_defaultlib.PP_CPU_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 159 differs from formal bit length 200 for port 'data' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:48]
+WARNING: [VRFC 10-3091] actual bit length 160 differs from formal bit length 200 for port 'Q' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:50]
+WARNING: [VRFC 10-3091] actual bit length 117 differs from formal bit length 200 for port 'data' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:64]
+WARNING: [VRFC 10-3091] actual bit length 117 differs from formal bit length 200 for port 'Q' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:66]
+WARNING: [VRFC 10-3091] actual bit length 73 differs from formal bit length 71 for port 'data' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:74]
+WARNING: [VRFC 10-3091] actual bit length 73 differs from formal bit length 71 for port 'Q' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:75]
+WARNING: [VRFC 10-3705] select index 30 into 'ID_EX_Func' is out of bounds [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:152]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.n_bit_reg_load_reset(N=64)
+Compiling module xil_defaultlib.n_bit_reg_load_reset(N=200)
+Compiling module xil_defaultlib.n_bit_reg_load_reset(N=71)
+Compiling module xil_defaultlib.MUXfourXone
+Compiling module xil_defaultlib.n_bit_reg_load_reset(N=32)
+Compiling module xil_defaultlib.InstMem
+Compiling module xil_defaultlib.full_adder
+Compiling module xil_defaultlib.NbitRCA_default
+Compiling module xil_defaultlib.CU
+Compiling module xil_defaultlib.RegFile
+Compiling module xil_defaultlib.IMMGen
+Compiling module xil_defaultlib.MUX(N=32)
+Compiling module xil_defaultlib.shifter
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.ALU_CU
+Compiling module xil_defaultlib.DataMem
+Compiling module xil_defaultlib.BRANCH
+Compiling module xil_defaultlib.PP_CPU
+Compiling module xil_defaultlib.PP_CPU_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot PP_CPU_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1226.492 ; gain = 0.000
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'PP_CPU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj PP_CPU_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/defines.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_CU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM2/SC_CPU.srcs/sources_1/new/BRANCH.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BRANCH
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/CU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/DataMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/IMMGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IMMGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/InstMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/MUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM2/SC_CPU.srcs/sources_1/new/MUX_fourXone.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUXfourXone
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/N-bitRCA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NbitRCA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PP_CPU
+WARNING: [VRFC 10-2938] 'PC' is already implicitly declared on line 34 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:81]
+WARNING: [VRFC 10-2938] 'inst_word' is already implicitly declared on line 34 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:83]
+WARNING: [VRFC 10-2938] 'PC_plus_4' is already implicitly declared on line 86 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:98]
+WARNING: [VRFC 10-2938] 'nextPC' is already implicitly declared on line 86 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:99]
+WARNING: [VRFC 10-2938] 'dataRead1' is already implicitly declared on line 48 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:119]
+WARNING: [VRFC 10-2938] 'dataRead2' is already implicitly declared on line 48 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:120]
+WARNING: [VRFC 10-2938] 'imm' is already implicitly declared on line 48 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:127]
+WARNING: [VRFC 10-2938] 'target_add' is already implicitly declared on line 64 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:133]
+WARNING: [VRFC 10-2938] 'cf' is already implicitly declared on line 64 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:143]
+WARNING: [VRFC 10-2938] 'ALU_out' is already implicitly declared on line 65 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:145]
+WARNING: [VRFC 10-2938] 'ALUsel' is already implicitly declared on line 147 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:151]
+WARNING: [VRFC 10-2938] 'MemDataRead' is already implicitly declared on line 74 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:165]
+WARNING: [VRFC 10-2938] 'And_out' is already implicitly declared on line 86 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:178]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/RegFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/n_bit_reg_load_reset.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module n_bit_reg_load_reset
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/shifter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shifter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sim_1/new/PP_CPU_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PP_CPU_tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'PP_CPU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot PP_CPU_tb_behav xil_defaultlib.PP_CPU_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot PP_CPU_tb_behav xil_defaultlib.PP_CPU_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 159 differs from formal bit length 200 for port 'data' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:48]
+WARNING: [VRFC 10-3091] actual bit length 160 differs from formal bit length 200 for port 'Q' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:50]
+WARNING: [VRFC 10-3091] actual bit length 117 differs from formal bit length 200 for port 'data' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:64]
+WARNING: [VRFC 10-3091] actual bit length 117 differs from formal bit length 200 for port 'Q' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:66]
+WARNING: [VRFC 10-3091] actual bit length 73 differs from formal bit length 71 for port 'data' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:74]
+WARNING: [VRFC 10-3091] actual bit length 73 differs from formal bit length 71 for port 'Q' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:75]
+WARNING: [VRFC 10-3705] select index 30 into 'ID_EX_Func' is out of bounds [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:152]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.n_bit_reg_load_reset(N=64)
+Compiling module xil_defaultlib.n_bit_reg_load_reset(N=200)
+Compiling module xil_defaultlib.n_bit_reg_load_reset(N=71)
+Compiling module xil_defaultlib.MUXfourXone
+Compiling module xil_defaultlib.n_bit_reg_load_reset(N=32)
+Compiling module xil_defaultlib.InstMem
+Compiling module xil_defaultlib.full_adder
+Compiling module xil_defaultlib.NbitRCA_default
+Compiling module xil_defaultlib.CU
+Compiling module xil_defaultlib.RegFile
+Compiling module xil_defaultlib.IMMGen
+Compiling module xil_defaultlib.MUX(N=32)
+Compiling module xil_defaultlib.shifter
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.ALU_CU
+Compiling module xil_defaultlib.DataMem
+Compiling module xil_defaultlib.BRANCH
+Compiling module xil_defaultlib.PP_CPU
+Compiling module xil_defaultlib.PP_CPU_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot PP_CPU_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Time resolution is 1 ps
+Immediate:         32
+Immediate:         32
+Immediate:         32
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 1226.867 ; gain = 0.375
+current_wave_config {PP_CPU_tb_behav.wcfg}
+PP_CPU_tb_behav.wcfg
+add_wave {{/PP_CPU_tb/uut/instCU}} 
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'PP_CPU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj PP_CPU_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/defines.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_CU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM2/SC_CPU.srcs/sources_1/new/BRANCH.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BRANCH
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/CU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/DataMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/IMMGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IMMGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/InstMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/MUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM2/SC_CPU.srcs/sources_1/new/MUX_fourXone.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUXfourXone
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/N-bitRCA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NbitRCA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PP_CPU
+WARNING: [VRFC 10-2938] 'PC' is already implicitly declared on line 34 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:81]
+WARNING: [VRFC 10-2938] 'inst_word' is already implicitly declared on line 34 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:83]
+WARNING: [VRFC 10-2938] 'PC_plus_4' is already implicitly declared on line 86 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:98]
+WARNING: [VRFC 10-2938] 'nextPC' is already implicitly declared on line 86 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:99]
+WARNING: [VRFC 10-2938] 'dataRead1' is already implicitly declared on line 48 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:119]
+WARNING: [VRFC 10-2938] 'dataRead2' is already implicitly declared on line 48 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:120]
+WARNING: [VRFC 10-2938] 'imm' is already implicitly declared on line 48 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:127]
+WARNING: [VRFC 10-2938] 'target_add' is already implicitly declared on line 64 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:133]
+WARNING: [VRFC 10-2938] 'cf' is already implicitly declared on line 64 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:143]
+WARNING: [VRFC 10-2938] 'ALU_out' is already implicitly declared on line 65 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:145]
+WARNING: [VRFC 10-2938] 'ALUsel' is already implicitly declared on line 147 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:151]
+WARNING: [VRFC 10-2938] 'MemDataRead' is already implicitly declared on line 74 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:165]
+WARNING: [VRFC 10-2938] 'And_out' is already implicitly declared on line 86 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:178]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/RegFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/n_bit_reg_load_reset.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module n_bit_reg_load_reset
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/shifter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shifter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sim_1/new/PP_CPU_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PP_CPU_tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'PP_CPU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot PP_CPU_tb_behav xil_defaultlib.PP_CPU_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot PP_CPU_tb_behav xil_defaultlib.PP_CPU_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 159 differs from formal bit length 200 for port 'data' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:48]
+WARNING: [VRFC 10-3091] actual bit length 160 differs from formal bit length 200 for port 'Q' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:50]
+WARNING: [VRFC 10-3091] actual bit length 117 differs from formal bit length 200 for port 'data' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:64]
+WARNING: [VRFC 10-3091] actual bit length 117 differs from formal bit length 200 for port 'Q' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:66]
+WARNING: [VRFC 10-3091] actual bit length 73 differs from formal bit length 71 for port 'data' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:74]
+WARNING: [VRFC 10-3091] actual bit length 73 differs from formal bit length 71 for port 'Q' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:75]
+WARNING: [VRFC 10-3705] select index 30 into 'ID_EX_Func' is out of bounds [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:152]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.n_bit_reg_load_reset(N=64)
+Compiling module xil_defaultlib.n_bit_reg_load_reset(N=200)
+Compiling module xil_defaultlib.n_bit_reg_load_reset(N=71)
+Compiling module xil_defaultlib.MUXfourXone
+Compiling module xil_defaultlib.n_bit_reg_load_reset(N=32)
+Compiling module xil_defaultlib.InstMem
+Compiling module xil_defaultlib.full_adder
+Compiling module xil_defaultlib.NbitRCA_default
+Compiling module xil_defaultlib.CU
+Compiling module xil_defaultlib.RegFile
+Compiling module xil_defaultlib.IMMGen
+Compiling module xil_defaultlib.MUX(N=32)
+Compiling module xil_defaultlib.shifter
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.ALU_CU
+Compiling module xil_defaultlib.DataMem
+Compiling module xil_defaultlib.BRANCH
+Compiling module xil_defaultlib.PP_CPU
+Compiling module xil_defaultlib.PP_CPU_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot PP_CPU_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Time resolution is 1 ps
+Immediate:         32
+Immediate:         32
+Immediate:         32
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1238.199 ; gain = 0.000
+current_wave_config {PP_CPU_tb_behav.wcfg}
+PP_CPU_tb_behav.wcfg
+add_wave {{/PP_CPU_tb/uut/EX_MEM}} 
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'PP_CPU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj PP_CPU_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'PP_CPU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot PP_CPU_tb_behav xil_defaultlib.PP_CPU_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot PP_CPU_tb_behav xil_defaultlib.PP_CPU_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 159 differs from formal bit length 200 for port 'data' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:48]
+WARNING: [VRFC 10-3091] actual bit length 160 differs from formal bit length 200 for port 'Q' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:50]
+WARNING: [VRFC 10-3091] actual bit length 117 differs from formal bit length 200 for port 'data' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:64]
+WARNING: [VRFC 10-3091] actual bit length 117 differs from formal bit length 200 for port 'Q' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:66]
+WARNING: [VRFC 10-3091] actual bit length 73 differs from formal bit length 71 for port 'data' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:74]
+WARNING: [VRFC 10-3091] actual bit length 73 differs from formal bit length 71 for port 'Q' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:75]
+WARNING: [VRFC 10-3705] select index 30 into 'ID_EX_Func' is out of bounds [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:152]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Time resolution is 1 ps
+Immediate:         32
+Immediate:         32
+Immediate:         32
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1238.199 ; gain = 0.000
+current_wave_config {PP_CPU_tb_behav.wcfg}
+PP_CPU_tb_behav.wcfg
+add_wave {{/PP_CPU_tb/uut/ID_EX}} 
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'PP_CPU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj PP_CPU_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'PP_CPU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot PP_CPU_tb_behav xil_defaultlib.PP_CPU_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot PP_CPU_tb_behav xil_defaultlib.PP_CPU_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 159 differs from formal bit length 200 for port 'data' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:48]
+WARNING: [VRFC 10-3091] actual bit length 160 differs from formal bit length 200 for port 'Q' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:50]
+WARNING: [VRFC 10-3091] actual bit length 117 differs from formal bit length 200 for port 'data' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:64]
+WARNING: [VRFC 10-3091] actual bit length 117 differs from formal bit length 200 for port 'Q' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:66]
+WARNING: [VRFC 10-3091] actual bit length 73 differs from formal bit length 71 for port 'data' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:74]
+WARNING: [VRFC 10-3091] actual bit length 73 differs from formal bit length 71 for port 'Q' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:75]
+WARNING: [VRFC 10-3705] select index 30 into 'ID_EX_Func' is out of bounds [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:152]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+Immediate:         32
+Immediate:         32
+Immediate:         32
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1238.199 ; gain = 0.000
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'PP_CPU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj PP_CPU_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'PP_CPU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot PP_CPU_tb_behav xil_defaultlib.PP_CPU_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot PP_CPU_tb_behav xil_defaultlib.PP_CPU_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 159 differs from formal bit length 200 for port 'data' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:48]
+WARNING: [VRFC 10-3091] actual bit length 160 differs from formal bit length 200 for port 'Q' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:50]
+WARNING: [VRFC 10-3091] actual bit length 117 differs from formal bit length 200 for port 'data' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:64]
+WARNING: [VRFC 10-3091] actual bit length 117 differs from formal bit length 200 for port 'Q' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:66]
+WARNING: [VRFC 10-3091] actual bit length 73 differs from formal bit length 71 for port 'data' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:74]
+WARNING: [VRFC 10-3091] actual bit length 73 differs from formal bit length 71 for port 'Q' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:75]
+WARNING: [VRFC 10-3705] select index 30 into 'ID_EX_Func' is out of bounds [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:152]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+Immediate:         32
+Immediate:         32
+Immediate:         32
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1254.848 ; gain = 0.000
+current_wave_config {PP_CPU_tb_behav.wcfg}
+PP_CPU_tb_behav.wcfg
+add_wave {{/PP_CPU_tb/uut/EX_MEM_Ctrl[4]}} 
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'PP_CPU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj PP_CPU_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'PP_CPU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot PP_CPU_tb_behav xil_defaultlib.PP_CPU_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot PP_CPU_tb_behav xil_defaultlib.PP_CPU_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 159 differs from formal bit length 200 for port 'data' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:48]
+WARNING: [VRFC 10-3091] actual bit length 160 differs from formal bit length 200 for port 'Q' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:50]
+WARNING: [VRFC 10-3091] actual bit length 117 differs from formal bit length 200 for port 'data' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:64]
+WARNING: [VRFC 10-3091] actual bit length 117 differs from formal bit length 200 for port 'Q' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:66]
+WARNING: [VRFC 10-3091] actual bit length 73 differs from formal bit length 71 for port 'data' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:74]
+WARNING: [VRFC 10-3091] actual bit length 73 differs from formal bit length 71 for port 'Q' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:75]
+WARNING: [VRFC 10-3705] select index 30 into 'ID_EX_Func' is out of bounds [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:152]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+Immediate:         32
+Immediate:         32
+Immediate:         32
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1254.848 ; gain = 0.000
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'PP_CPU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj PP_CPU_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/defines.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_CU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM2/SC_CPU.srcs/sources_1/new/BRANCH.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BRANCH
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/CU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/DataMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/IMMGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IMMGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/InstMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/MUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM2/SC_CPU.srcs/sources_1/new/MUX_fourXone.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUXfourXone
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/N-bitRCA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NbitRCA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PP_CPU
+WARNING: [VRFC 10-2938] 'PC' is already implicitly declared on line 34 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:81]
+WARNING: [VRFC 10-2938] 'inst_word' is already implicitly declared on line 34 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:83]
+WARNING: [VRFC 10-2938] 'PC_plus_4' is already implicitly declared on line 86 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:98]
+WARNING: [VRFC 10-2938] 'nextPC' is already implicitly declared on line 86 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:99]
+WARNING: [VRFC 10-2938] 'dataRead1' is already implicitly declared on line 48 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:119]
+WARNING: [VRFC 10-2938] 'dataRead2' is already implicitly declared on line 48 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:120]
+WARNING: [VRFC 10-2938] 'imm' is already implicitly declared on line 48 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:127]
+WARNING: [VRFC 10-2938] 'target_add' is already implicitly declared on line 64 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:133]
+WARNING: [VRFC 10-2938] 'cf' is already implicitly declared on line 64 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:143]
+WARNING: [VRFC 10-2938] 'ALU_out' is already implicitly declared on line 65 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:145]
+WARNING: [VRFC 10-2938] 'ALUsel' is already implicitly declared on line 147 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:151]
+WARNING: [VRFC 10-2938] 'MemDataRead' is already implicitly declared on line 74 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:165]
+WARNING: [VRFC 10-2938] 'And_out' is already implicitly declared on line 86 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:178]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/RegFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/n_bit_reg_load_reset.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module n_bit_reg_load_reset
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/shifter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shifter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sim_1/new/PP_CPU_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PP_CPU_tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'PP_CPU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot PP_CPU_tb_behav xil_defaultlib.PP_CPU_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot PP_CPU_tb_behav xil_defaultlib.PP_CPU_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 159 differs from formal bit length 200 for port 'data' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:48]
+WARNING: [VRFC 10-3091] actual bit length 160 differs from formal bit length 200 for port 'Q' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:50]
+WARNING: [VRFC 10-3091] actual bit length 117 differs from formal bit length 200 for port 'data' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:64]
+WARNING: [VRFC 10-3091] actual bit length 117 differs from formal bit length 200 for port 'Q' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:66]
+WARNING: [VRFC 10-3091] actual bit length 73 differs from formal bit length 71 for port 'data' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:74]
+WARNING: [VRFC 10-3091] actual bit length 73 differs from formal bit length 71 for port 'Q' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:75]
+WARNING: [VRFC 10-3705] select index 30 into 'ID_EX_Func' is out of bounds [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:152]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.n_bit_reg_load_reset(N=64)
+Compiling module xil_defaultlib.n_bit_reg_load_reset(N=200)
+Compiling module xil_defaultlib.n_bit_reg_load_reset(N=71)
+Compiling module xil_defaultlib.MUXfourXone
+Compiling module xil_defaultlib.n_bit_reg_load_reset(N=32)
+Compiling module xil_defaultlib.InstMem
+Compiling module xil_defaultlib.full_adder
+Compiling module xil_defaultlib.NbitRCA_default
+Compiling module xil_defaultlib.CU
+Compiling module xil_defaultlib.RegFile
+Compiling module xil_defaultlib.IMMGen
+Compiling module xil_defaultlib.MUX(N=32)
+Compiling module xil_defaultlib.shifter
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.ALU_CU
+Compiling module xil_defaultlib.DataMem
+Compiling module xil_defaultlib.BRANCH
+Compiling module xil_defaultlib.PP_CPU
+Compiling module xil_defaultlib.PP_CPU_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot PP_CPU_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Time resolution is 1 ps
+Immediate:         32
+Immediate:         32
+Immediate:         32
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 1254.848 ; gain = 0.000
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: PP_CPU
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+WARNING: [Synth 8-8895] 'PC' is already implicitly declared on line 34 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:81]
+WARNING: [Synth 8-8895] 'inst_word' is already implicitly declared on line 34 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:83]
+WARNING: [Synth 8-8895] 'PC_plus_4' is already implicitly declared on line 86 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:98]
+WARNING: [Synth 8-8895] 'nextPC' is already implicitly declared on line 86 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:99]
+WARNING: [Synth 8-8895] 'dataRead1' is already implicitly declared on line 48 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:119]
+WARNING: [Synth 8-8895] 'dataRead2' is already implicitly declared on line 48 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:120]
+WARNING: [Synth 8-8895] 'imm' is already implicitly declared on line 48 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:127]
+WARNING: [Synth 8-8895] 'target_add' is already implicitly declared on line 64 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:133]
+WARNING: [Synth 8-8895] 'cf' is already implicitly declared on line 64 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:143]
+WARNING: [Synth 8-8895] 'zf' is already implicitly declared on line 64 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:143]
+WARNING: [Synth 8-8895] 'vf' is already implicitly declared on line 64 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:143]
+WARNING: [Synth 8-8895] 'sf' is already implicitly declared on line 64 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:143]
+WARNING: [Synth 8-8895] 'ALU_out' is already implicitly declared on line 65 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:145]
+WARNING: [Synth 8-8895] 'ALUsel' is already implicitly declared on line 147 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:151]
+WARNING: [Synth 8-8895] 'MemDataRead' is already implicitly declared on line 74 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:165]
+WARNING: [Synth 8-8895] 'And_out' is already implicitly declared on line 86 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:178]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 1995.434 ; gain = 392.551
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'PP_CPU' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:23]
+INFO: [Synth 8-6157] synthesizing module 'n_bit_reg_load_reset' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/n_bit_reg_load_reset.v:23]
+	Parameter N bound to: 64 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'n_bit_reg_load_reset' (0#1) [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/n_bit_reg_load_reset.v:23]
+INFO: [Synth 8-6157] synthesizing module 'n_bit_reg_load_reset__parameterized0' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/n_bit_reg_load_reset.v:23]
+	Parameter N bound to: 200 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'n_bit_reg_load_reset__parameterized0' (0#1) [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/n_bit_reg_load_reset.v:23]
+WARNING: [Synth 8-689] width (160) of port connection 'Q' does not match port width (200) of module 'n_bit_reg_load_reset__parameterized0' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:50]
+WARNING: [Synth 8-689] width (117) of port connection 'Q' does not match port width (200) of module 'n_bit_reg_load_reset__parameterized0' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:66]
+INFO: [Synth 8-6157] synthesizing module 'n_bit_reg_load_reset__parameterized1' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/n_bit_reg_load_reset.v:23]
+	Parameter N bound to: 71 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'n_bit_reg_load_reset__parameterized1' (0#1) [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/n_bit_reg_load_reset.v:23]
+WARNING: [Synth 8-689] width (73) of port connection 'data' does not match port width (71) of module 'n_bit_reg_load_reset__parameterized1' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:74]
+WARNING: [Synth 8-689] width (73) of port connection 'Q' does not match port width (71) of module 'n_bit_reg_load_reset__parameterized1' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:75]
+INFO: [Synth 8-6157] synthesizing module 'MUXfourXone' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM2/SC_CPU.srcs/sources_1/new/MUX_fourXone.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'MUXfourXone' (0#1) [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM2/SC_CPU.srcs/sources_1/new/MUX_fourXone.v:23]
+INFO: [Synth 8-6157] synthesizing module 'n_bit_reg_load_reset__parameterized2' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/n_bit_reg_load_reset.v:23]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'n_bit_reg_load_reset__parameterized2' (0#1) [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/n_bit_reg_load_reset.v:23]
+INFO: [Synth 8-6157] synthesizing module 'InstMem' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/InstMem.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'InstMem' (0#1) [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/InstMem.v:23]
+INFO: [Synth 8-6157] synthesizing module 'NbitRCA' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/N-bitRCA.v:22]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'full_adder' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/full_adder.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'full_adder' (0#1) [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/full_adder.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'NbitRCA' (0#1) [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/N-bitRCA.v:22]
+INFO: [Synth 8-6157] synthesizing module 'CU' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/CU.v:24]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/CU.v:152]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/CU.v:165]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/CU.v:27]
+INFO: [Synth 8-6155] done synthesizing module 'CU' (0#1) [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/CU.v:24]
+INFO: [Synth 8-6157] synthesizing module 'RegFile' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/RegFile.v:5]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'RegFile' (0#1) [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/RegFile.v:5]
+INFO: [Synth 8-6157] synthesizing module 'IMMGen' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/IMMGen.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'IMMGen' (0#1) [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/IMMGen.v:23]
+INFO: [Synth 8-6157] synthesizing module 'MUX' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/MUX.v:23]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'MUX' (0#1) [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/MUX.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU.v:22]
+INFO: [Synth 8-6157] synthesizing module 'shifter' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/shifter.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/shifter.v:26]
+INFO: [Synth 8-6155] done synthesizing module 'shifter' (0#1) [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/shifter.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU.v:46]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (0#1) [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU.v:22]
+INFO: [Synth 8-6157] synthesizing module 'ALU_CU' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:23]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:33]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:34]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:36]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:38]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:40]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:43]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:43]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:45]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:45]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:47]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:49]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:51]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:55]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:56]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:56]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:58]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:58]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:60]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:60]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:62]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:62]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:64]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:64]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:66]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:66]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:70]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:70]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:72]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:72]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:74]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:74]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:76]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:76]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:78]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:78]
+INFO: [Synth 8-6155] done synthesizing module 'ALU_CU' (0#1) [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v:23]
+WARNING: [Synth 8-324] index 30 out of range [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:152]
+INFO: [Synth 8-6157] synthesizing module 'DataMem' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/DataMem.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/DataMem.v:37]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/DataMem.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'DataMem' (0#1) [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/DataMem.v:23]
+INFO: [Synth 8-6157] synthesizing module 'BRANCH' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM2/SC_CPU.srcs/sources_1/new/BRANCH.v:23]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM2/SC_CPU.srcs/sources_1/new/BRANCH.v:39]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM2/SC_CPU.srcs/sources_1/new/BRANCH.v:43]
+INFO: [Synth 8-6155] done synthesizing module 'BRANCH' (0#1) [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM2/SC_CPU.srcs/sources_1/new/BRANCH.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'PP_CPU' (0#1) [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:23]
+WARNING: [Synth 8-4767] Trying to implement RAM 'mem_reg' in registers. Block RAM or DRAM implementation is not possible; see log for reasons.
+Reason is one or more of the following :
+	1: RAM has multiple writes via different ports in same process. If RAM inferencing intended, write to one port per process. 
+	2: Unable to determine number of words or word size in RAM. 
+	3: No valid read/write found for RAM. 
+RAM "mem_reg" dissolved into registers
+WARNING: [Synth 8-7129] Port IR[1] in module IMMGen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port IR[0] in module IMMGen is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 2101.199 ; gain = 498.316
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 2114.398 ; gain = 511.516
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 2114.398 ; gain = 511.516
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.057 . Memory (MB): peak = 2114.398 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2227.066 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:16 ; elapsed = 00:00:12 . Memory (MB): peak = 2250.082 ; gain = 647.199
+44 Infos, 63 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 2250.082 ; gain = 995.234
+current_wave_config {PP_CPU_tb_behav.wcfg}
+PP_CPU_tb_behav.wcfg
+add_wave {{/PP_CPU_tb/uut/instALU}} 
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'PP_CPU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj PP_CPU_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/defines.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_CU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM2/SC_CPU.srcs/sources_1/new/BRANCH.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BRANCH
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/CU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/DataMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/IMMGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IMMGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/InstMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/MUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM2/SC_CPU.srcs/sources_1/new/MUX_fourXone.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUXfourXone
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/N-bitRCA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NbitRCA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PP_CPU
+WARNING: [VRFC 10-2938] 'PC' is already implicitly declared on line 34 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:81]
+WARNING: [VRFC 10-2938] 'inst_word' is already implicitly declared on line 34 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:83]
+WARNING: [VRFC 10-2938] 'PC_plus_4' is already implicitly declared on line 86 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:98]
+WARNING: [VRFC 10-2938] 'nextPC' is already implicitly declared on line 86 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:99]
+WARNING: [VRFC 10-2938] 'dataRead1' is already implicitly declared on line 48 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:119]
+WARNING: [VRFC 10-2938] 'dataRead2' is already implicitly declared on line 48 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:120]
+WARNING: [VRFC 10-2938] 'imm' is already implicitly declared on line 48 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:127]
+WARNING: [VRFC 10-2938] 'target_add' is already implicitly declared on line 64 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:133]
+WARNING: [VRFC 10-2938] 'cf' is already implicitly declared on line 64 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:143]
+WARNING: [VRFC 10-2938] 'ALU_out' is already implicitly declared on line 65 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:145]
+WARNING: [VRFC 10-2938] 'ALUsel' is already implicitly declared on line 147 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:151]
+WARNING: [VRFC 10-2938] 'MemDataRead' is already implicitly declared on line 74 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:165]
+ERROR: [VRFC 10-4982] syntax error near ')' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:171]
+WARNING: [VRFC 10-2938] 'And_out' is already implicitly declared on line 86 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:178]
+ERROR: [VRFC 10-8530] module 'PP_CPU' is ignored due to previous errors [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:23]
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'PP_CPU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj PP_CPU_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/defines.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_CU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM2/SC_CPU.srcs/sources_1/new/BRANCH.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BRANCH
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/CU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/DataMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/IMMGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IMMGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/InstMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/MUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM2/SC_CPU.srcs/sources_1/new/MUX_fourXone.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUXfourXone
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/N-bitRCA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NbitRCA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PP_CPU
+WARNING: [VRFC 10-2938] 'PC' is already implicitly declared on line 34 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:81]
+WARNING: [VRFC 10-2938] 'inst_word' is already implicitly declared on line 34 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:83]
+WARNING: [VRFC 10-2938] 'PC_plus_4' is already implicitly declared on line 86 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:98]
+WARNING: [VRFC 10-2938] 'nextPC' is already implicitly declared on line 86 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:99]
+WARNING: [VRFC 10-2938] 'dataRead1' is already implicitly declared on line 48 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:119]
+WARNING: [VRFC 10-2938] 'dataRead2' is already implicitly declared on line 48 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:120]
+WARNING: [VRFC 10-2938] 'imm' is already implicitly declared on line 48 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:127]
+WARNING: [VRFC 10-2938] 'target_add' is already implicitly declared on line 64 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:133]
+WARNING: [VRFC 10-2938] 'cf' is already implicitly declared on line 64 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:143]
+WARNING: [VRFC 10-2938] 'ALU_out' is already implicitly declared on line 65 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:145]
+WARNING: [VRFC 10-2938] 'ALUsel' is already implicitly declared on line 147 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:151]
+WARNING: [VRFC 10-2938] 'MemDataRead' is already implicitly declared on line 74 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:165]
+ERROR: [VRFC 10-4982] syntax error near '.' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:171]
+WARNING: [VRFC 10-2938] 'And_out' is already implicitly declared on line 86 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:178]
+ERROR: [VRFC 10-8530] module 'PP_CPU' is ignored due to previous errors [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:23]
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'PP_CPU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj PP_CPU_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/defines.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_CU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM2/SC_CPU.srcs/sources_1/new/BRANCH.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BRANCH
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/CU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/DataMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/IMMGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IMMGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/InstMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/MUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM2/SC_CPU.srcs/sources_1/new/MUX_fourXone.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUXfourXone
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/N-bitRCA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NbitRCA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PP_CPU
+WARNING: [VRFC 10-2938] 'PC' is already implicitly declared on line 34 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:81]
+WARNING: [VRFC 10-2938] 'inst_word' is already implicitly declared on line 34 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:83]
+WARNING: [VRFC 10-2938] 'PC_plus_4' is already implicitly declared on line 86 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:98]
+WARNING: [VRFC 10-2938] 'nextPC' is already implicitly declared on line 86 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:99]
+WARNING: [VRFC 10-2938] 'dataRead1' is already implicitly declared on line 48 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:119]
+WARNING: [VRFC 10-2938] 'dataRead2' is already implicitly declared on line 48 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:120]
+WARNING: [VRFC 10-2938] 'imm' is already implicitly declared on line 48 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:127]
+WARNING: [VRFC 10-2938] 'target_add' is already implicitly declared on line 64 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:133]
+WARNING: [VRFC 10-2938] 'cf' is already implicitly declared on line 64 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:143]
+WARNING: [VRFC 10-2938] 'ALU_out' is already implicitly declared on line 65 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:145]
+WARNING: [VRFC 10-2938] 'ALUsel' is already implicitly declared on line 147 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:151]
+WARNING: [VRFC 10-2938] 'MemDataRead' is already implicitly declared on line 74 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:165]
+WARNING: [VRFC 10-2938] 'And_out' is already implicitly declared on line 86 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:178]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/RegFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/n_bit_reg_load_reset.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module n_bit_reg_load_reset
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/shifter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shifter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sim_1/new/PP_CPU_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PP_CPU_tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'PP_CPU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot PP_CPU_tb_behav xil_defaultlib.PP_CPU_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot PP_CPU_tb_behav xil_defaultlib.PP_CPU_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 159 differs from formal bit length 200 for port 'data' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:48]
+WARNING: [VRFC 10-3091] actual bit length 160 differs from formal bit length 200 for port 'Q' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:50]
+WARNING: [VRFC 10-3091] actual bit length 117 differs from formal bit length 200 for port 'data' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:64]
+WARNING: [VRFC 10-3091] actual bit length 117 differs from formal bit length 200 for port 'Q' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:66]
+WARNING: [VRFC 10-3091] actual bit length 73 differs from formal bit length 71 for port 'data' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:74]
+WARNING: [VRFC 10-3091] actual bit length 73 differs from formal bit length 71 for port 'Q' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:75]
+WARNING: [VRFC 10-3705] select index 30 into 'ID_EX_Func' is out of bounds [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:152]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.n_bit_reg_load_reset(N=64)
+Compiling module xil_defaultlib.n_bit_reg_load_reset(N=200)
+Compiling module xil_defaultlib.n_bit_reg_load_reset(N=71)
+Compiling module xil_defaultlib.MUXfourXone
+Compiling module xil_defaultlib.n_bit_reg_load_reset(N=32)
+Compiling module xil_defaultlib.InstMem
+Compiling module xil_defaultlib.full_adder
+Compiling module xil_defaultlib.NbitRCA_default
+Compiling module xil_defaultlib.CU
+Compiling module xil_defaultlib.RegFile
+Compiling module xil_defaultlib.IMMGen
+Compiling module xil_defaultlib.MUX(N=32)
+Compiling module xil_defaultlib.shifter
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.ALU_CU
+Compiling module xil_defaultlib.DataMem
+Compiling module xil_defaultlib.BRANCH
+Compiling module xil_defaultlib.PP_CPU
+Compiling module xil_defaultlib.PP_CPU_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot PP_CPU_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Time resolution is 1 ps
+Immediate:         32
+Immediate:         32
+Immediate:         32
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 2261.160 ; gain = 2.246
+current_wave_config {PP_CPU_tb_behav.wcfg}
+PP_CPU_tb_behav.wcfg
+add_wave {{/PP_CPU_tb/uut/instALU_CU}} 
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'PP_CPU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj PP_CPU_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'PP_CPU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot PP_CPU_tb_behav xil_defaultlib.PP_CPU_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot PP_CPU_tb_behav xil_defaultlib.PP_CPU_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 159 differs from formal bit length 200 for port 'data' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:48]
+WARNING: [VRFC 10-3091] actual bit length 160 differs from formal bit length 200 for port 'Q' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:50]
+WARNING: [VRFC 10-3091] actual bit length 117 differs from formal bit length 200 for port 'data' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:64]
+WARNING: [VRFC 10-3091] actual bit length 117 differs from formal bit length 200 for port 'Q' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:66]
+WARNING: [VRFC 10-3091] actual bit length 73 differs from formal bit length 71 for port 'data' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:74]
+WARNING: [VRFC 10-3091] actual bit length 73 differs from formal bit length 71 for port 'Q' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:75]
+WARNING: [VRFC 10-3705] select index 30 into 'ID_EX_Func' is out of bounds [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:152]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Time resolution is 1 ps
+Immediate:         32
+Immediate:         32
+Immediate:         32
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 2315.871 ; gain = 0.000
+current_wave_config {PP_CPU_tb_behav.wcfg}
+PP_CPU_tb_behav.wcfg
+add_wave {{/PP_CPU_tb/uut/instCU}} 
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'PP_CPU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj PP_CPU_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'PP_CPU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot PP_CPU_tb_behav xil_defaultlib.PP_CPU_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot PP_CPU_tb_behav xil_defaultlib.PP_CPU_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 159 differs from formal bit length 200 for port 'data' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:48]
+WARNING: [VRFC 10-3091] actual bit length 160 differs from formal bit length 200 for port 'Q' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:50]
+WARNING: [VRFC 10-3091] actual bit length 117 differs from formal bit length 200 for port 'data' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:64]
+WARNING: [VRFC 10-3091] actual bit length 117 differs from formal bit length 200 for port 'Q' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:66]
+WARNING: [VRFC 10-3091] actual bit length 73 differs from formal bit length 71 for port 'data' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:74]
+WARNING: [VRFC 10-3091] actual bit length 73 differs from formal bit length 71 for port 'Q' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:75]
+WARNING: [VRFC 10-3705] select index 30 into 'ID_EX_Func' is out of bounds [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:152]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+Immediate:         32
+Immediate:         32
+Immediate:         32
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 2317.828 ; gain = 0.695
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'PP_CPU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj PP_CPU_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/defines.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_CU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM2/SC_CPU.srcs/sources_1/new/BRANCH.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BRANCH
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/CU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/DataMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/IMMGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IMMGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/InstMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/MUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM2/SC_CPU.srcs/sources_1/new/MUX_fourXone.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUXfourXone
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/N-bitRCA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NbitRCA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PP_CPU
+WARNING: [VRFC 10-2938] 'PC' is already implicitly declared on line 34 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:81]
+WARNING: [VRFC 10-2938] 'inst_word' is already implicitly declared on line 34 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:83]
+WARNING: [VRFC 10-2938] 'PC_plus_4' is already implicitly declared on line 86 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:98]
+WARNING: [VRFC 10-2938] 'nextPC' is already implicitly declared on line 86 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:99]
+WARNING: [VRFC 10-2938] 'dataRead1' is already implicitly declared on line 48 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:119]
+WARNING: [VRFC 10-2938] 'dataRead2' is already implicitly declared on line 48 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:120]
+WARNING: [VRFC 10-2938] 'imm' is already implicitly declared on line 48 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:127]
+WARNING: [VRFC 10-2938] 'target_add' is already implicitly declared on line 64 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:133]
+WARNING: [VRFC 10-2938] 'cf' is already implicitly declared on line 64 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:143]
+WARNING: [VRFC 10-2938] 'ALU_out' is already implicitly declared on line 65 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:145]
+WARNING: [VRFC 10-2938] 'ALUsel' is already implicitly declared on line 147 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:151]
+WARNING: [VRFC 10-2938] 'MemDataRead' is already implicitly declared on line 74 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:165]
+WARNING: [VRFC 10-2938] 'And_out' is already implicitly declared on line 86 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:178]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/RegFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/n_bit_reg_load_reset.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module n_bit_reg_load_reset
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/shifter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shifter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sim_1/new/PP_CPU_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PP_CPU_tb
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'PP_CPU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot PP_CPU_tb_behav xil_defaultlib.PP_CPU_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot PP_CPU_tb_behav xil_defaultlib.PP_CPU_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 159 differs from formal bit length 200 for port 'data' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:48]
+WARNING: [VRFC 10-3091] actual bit length 160 differs from formal bit length 200 for port 'Q' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:50]
+WARNING: [VRFC 10-3091] actual bit length 117 differs from formal bit length 200 for port 'data' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:64]
+WARNING: [VRFC 10-3091] actual bit length 117 differs from formal bit length 200 for port 'Q' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:66]
+WARNING: [VRFC 10-3091] actual bit length 73 differs from formal bit length 71 for port 'data' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:74]
+WARNING: [VRFC 10-3091] actual bit length 73 differs from formal bit length 71 for port 'Q' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:75]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.n_bit_reg_load_reset(N=64)
+Compiling module xil_defaultlib.n_bit_reg_load_reset(N=200)
+Compiling module xil_defaultlib.n_bit_reg_load_reset(N=71)
+Compiling module xil_defaultlib.MUXfourXone
+Compiling module xil_defaultlib.n_bit_reg_load_reset(N=32)
+Compiling module xil_defaultlib.InstMem
+Compiling module xil_defaultlib.full_adder
+Compiling module xil_defaultlib.NbitRCA_default
+Compiling module xil_defaultlib.CU
+Compiling module xil_defaultlib.RegFile
+Compiling module xil_defaultlib.IMMGen
+Compiling module xil_defaultlib.MUX(N=32)
+Compiling module xil_defaultlib.shifter
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.ALU_CU
+Compiling module xil_defaultlib.DataMem
+Compiling module xil_defaultlib.BRANCH
+Compiling module xil_defaultlib.PP_CPU
+Compiling module xil_defaultlib.PP_CPU_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot PP_CPU_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 2318.047 ; gain = 0.000
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'PP_CPU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj PP_CPU_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'PP_CPU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot PP_CPU_tb_behav xil_defaultlib.PP_CPU_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot PP_CPU_tb_behav xil_defaultlib.PP_CPU_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 159 differs from formal bit length 200 for port 'data' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:48]
+WARNING: [VRFC 10-3091] actual bit length 160 differs from formal bit length 200 for port 'Q' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:50]
+WARNING: [VRFC 10-3091] actual bit length 117 differs from formal bit length 200 for port 'data' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:64]
+WARNING: [VRFC 10-3091] actual bit length 117 differs from formal bit length 200 for port 'Q' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:66]
+WARNING: [VRFC 10-3091] actual bit length 73 differs from formal bit length 71 for port 'data' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:74]
+WARNING: [VRFC 10-3091] actual bit length 73 differs from formal bit length 71 for port 'Q' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:75]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 2318.121 ; gain = 0.000
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'PP_CPU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj PP_CPU_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'PP_CPU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot PP_CPU_tb_behav xil_defaultlib.PP_CPU_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot PP_CPU_tb_behav xil_defaultlib.PP_CPU_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 159 differs from formal bit length 200 for port 'data' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:48]
+WARNING: [VRFC 10-3091] actual bit length 160 differs from formal bit length 200 for port 'Q' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:50]
+WARNING: [VRFC 10-3091] actual bit length 117 differs from formal bit length 200 for port 'data' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:64]
+WARNING: [VRFC 10-3091] actual bit length 117 differs from formal bit length 200 for port 'Q' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:66]
+WARNING: [VRFC 10-3091] actual bit length 73 differs from formal bit length 71 for port 'data' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:74]
+WARNING: [VRFC 10-3091] actual bit length 73 differs from formal bit length 71 for port 'Q' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:75]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+Immediate:         32
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 2318.121 ; gain = 0.000
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'PP_CPU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj PP_CPU_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/defines.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_CU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM2/SC_CPU.srcs/sources_1/new/BRANCH.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BRANCH
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/CU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/DataMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/IMMGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IMMGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/InstMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/MUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM2/SC_CPU.srcs/sources_1/new/MUX_fourXone.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUXfourXone
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/N-bitRCA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NbitRCA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PP_CPU
+WARNING: [VRFC 10-2938] 'PC' is already implicitly declared on line 34 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:81]
+WARNING: [VRFC 10-2938] 'inst_word' is already implicitly declared on line 34 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:83]
+WARNING: [VRFC 10-2938] 'PC_plus_4' is already implicitly declared on line 86 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:98]
+WARNING: [VRFC 10-2938] 'nextPC' is already implicitly declared on line 86 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:99]
+WARNING: [VRFC 10-2938] 'dataRead1' is already implicitly declared on line 48 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:119]
+WARNING: [VRFC 10-2938] 'dataRead2' is already implicitly declared on line 48 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:120]
+WARNING: [VRFC 10-2938] 'imm' is already implicitly declared on line 49 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:127]
+WARNING: [VRFC 10-2938] 'target_add' is already implicitly declared on line 64 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:133]
+WARNING: [VRFC 10-2938] 'cf' is already implicitly declared on line 64 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:143]
+WARNING: [VRFC 10-2938] 'ALU_out' is already implicitly declared on line 65 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:145]
+WARNING: [VRFC 10-2938] 'ALUsel' is already implicitly declared on line 147 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:151]
+WARNING: [VRFC 10-2938] 'MemDataRead' is already implicitly declared on line 74 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:165]
+WARNING: [VRFC 10-2938] 'And_out' is already implicitly declared on line 86 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:178]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/RegFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/n_bit_reg_load_reset.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module n_bit_reg_load_reset
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/shifter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shifter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sim_1/new/PP_CPU_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PP_CPU_tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'PP_CPU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot PP_CPU_tb_behav xil_defaultlib.PP_CPU_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot PP_CPU_tb_behav xil_defaultlib.PP_CPU_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 159 differs from formal bit length 200 for port 'data' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:48]
+WARNING: [VRFC 10-3091] actual bit length 160 differs from formal bit length 200 for port 'Q' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:50]
+WARNING: [VRFC 10-3091] actual bit length 117 differs from formal bit length 200 for port 'data' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:64]
+WARNING: [VRFC 10-3091] actual bit length 117 differs from formal bit length 200 for port 'Q' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:66]
+WARNING: [VRFC 10-3091] actual bit length 73 differs from formal bit length 71 for port 'data' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:74]
+WARNING: [VRFC 10-3091] actual bit length 73 differs from formal bit length 71 for port 'Q' [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:75]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.n_bit_reg_load_reset(N=64)
+Compiling module xil_defaultlib.n_bit_reg_load_reset(N=200)
+Compiling module xil_defaultlib.n_bit_reg_load_reset(N=71)
+Compiling module xil_defaultlib.MUXfourXone
+Compiling module xil_defaultlib.n_bit_reg_load_reset(N=32)
+Compiling module xil_defaultlib.InstMem
+Compiling module xil_defaultlib.full_adder
+Compiling module xil_defaultlib.NbitRCA_default
+Compiling module xil_defaultlib.CU
+Compiling module xil_defaultlib.RegFile
+Compiling module xil_defaultlib.IMMGen
+Compiling module xil_defaultlib.MUX(N=32)
+Compiling module xil_defaultlib.shifter
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.ALU_CU
+Compiling module xil_defaultlib.DataMem
+Compiling module xil_defaultlib.BRANCH
+Compiling module xil_defaultlib.PP_CPU
+Compiling module xil_defaultlib.PP_CPU_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot PP_CPU_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+Immediate:         32
+Immediate:         32
+Immediate:         32
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 2318.328 ; gain = 0.207
+close [ open C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/DEC_2x1.v w ]
+add_files C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/DEC_2x1.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'PP_CPU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj PP_CPU_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/defines.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_CU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM2/SC_CPU.srcs/sources_1/new/BRANCH.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BRANCH
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/CU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/DataMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/IMMGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IMMGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/InstMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/MUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM2/SC_CPU.srcs/sources_1/new/MUX_fourXone.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUXfourXone
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/N-bitRCA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NbitRCA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PP_CPU
+WARNING: [VRFC 10-2938] 'PC' is already implicitly declared on line 34 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:81]
+WARNING: [VRFC 10-2938] 'PC_plus_4' is already implicitly declared on line 85 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:93]
+WARNING: [VRFC 10-2938] 'nextPC' is already implicitly declared on line 85 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:94]
+WARNING: [VRFC 10-2938] 'dataRead1' is already implicitly declared on line 47 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:114]
+WARNING: [VRFC 10-2938] 'dataRead2' is already implicitly declared on line 47 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:115]
+WARNING: [VRFC 10-2938] 'imm' is already implicitly declared on line 48 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:122]
+WARNING: [VRFC 10-2938] 'target_add' is already implicitly declared on line 64 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:128]
+WARNING: [VRFC 10-2938] 'cf' is already implicitly declared on line 64 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:138]
+WARNING: [VRFC 10-2938] 'ALU_out' is already implicitly declared on line 65 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:140]
+WARNING: [VRFC 10-2938] 'ALUsel' is already implicitly declared on line 142 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:146]
+WARNING: [VRFC 10-2938] 'inst_word' is already implicitly declared on line 34 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:168]
+WARNING: [VRFC 10-2938] 'MemDataRead' is already implicitly declared on line 74 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:169]
+WARNING: [VRFC 10-2938] 'And_out' is already implicitly declared on line 85 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:186]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/RegFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/n_bit_reg_load_reset.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module n_bit_reg_load_reset
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/shifter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shifter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sim_1/new/PP_CPU_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PP_CPU_tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'PP_CPU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot PP_CPU_tb_behav xil_defaultlib.PP_CPU_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot PP_CPU_tb_behav xil_defaultlib.PP_CPU_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-2063] Module <DEC_2x1> not found while processing module instance <instDEC> [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:175]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'PP_CPU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj PP_CPU_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/defines.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_CU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM2/SC_CPU.srcs/sources_1/new/BRANCH.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BRANCH
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/CU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/DataMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/IMMGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IMMGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/InstMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/MUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM2/SC_CPU.srcs/sources_1/new/MUX_fourXone.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUXfourXone
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/N-bitRCA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NbitRCA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PP_CPU
+WARNING: [VRFC 10-2938] 'PC' is already implicitly declared on line 34 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:81]
+WARNING: [VRFC 10-2938] 'PC_plus_4' is already implicitly declared on line 85 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:93]
+WARNING: [VRFC 10-2938] 'nextPC' is already implicitly declared on line 85 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:94]
+WARNING: [VRFC 10-2938] 'dataRead1' is already implicitly declared on line 47 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:114]
+WARNING: [VRFC 10-2938] 'dataRead2' is already implicitly declared on line 47 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:115]
+WARNING: [VRFC 10-2938] 'imm' is already implicitly declared on line 48 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:122]
+WARNING: [VRFC 10-2938] 'target_add' is already implicitly declared on line 64 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:128]
+WARNING: [VRFC 10-2938] 'cf' is already implicitly declared on line 64 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:138]
+WARNING: [VRFC 10-2938] 'ALU_out' is already implicitly declared on line 65 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:140]
+WARNING: [VRFC 10-2938] 'ALUsel' is already implicitly declared on line 142 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:146]
+WARNING: [VRFC 10-2938] 'inst_word' is already implicitly declared on line 34 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:168]
+WARNING: [VRFC 10-2938] 'MemDataRead' is already implicitly declared on line 74 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:169]
+WARNING: [VRFC 10-2938] 'And_out' is already implicitly declared on line 85 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:186]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/RegFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/n_bit_reg_load_reset.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module n_bit_reg_load_reset
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/shifter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shifter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sim_1/new/PP_CPU_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PP_CPU_tb
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'PP_CPU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot PP_CPU_tb_behav xil_defaultlib.PP_CPU_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot PP_CPU_tb_behav xil_defaultlib.PP_CPU_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-2063] Module <DEC_2x1> not found while processing module instance <instDEC> [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:175]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+
+save_wave_config {C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU_tb_behav.wcfg}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Apr 26 18:23:49 2023...

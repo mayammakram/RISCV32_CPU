@@ -1,0 +1,51 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/defines.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/ALU_CU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_CU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM2/SC_CPU.srcs/sources_1/new/BRANCH.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BRANCH
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/CU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/DEC_2x1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DEC_2x1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/DataMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/FWD_Unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FWD_Unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/IMMGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IMMGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/MUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM2/SC_CPU.srcs/sources_1/new/MUX_fourXone.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUXfourXone
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/N-bitRCA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NbitRCA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PP_CPU
+WARNING: [VRFC 10-2938] 'PC' is already implicitly declared on line 34 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:81]
+WARNING: [VRFC 10-2938] 'PC_plus_4' is already implicitly declared on line 85 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:93]
+WARNING: [VRFC 10-2938] 'nextPC' is already implicitly declared on line 85 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:94]
+WARNING: [VRFC 10-2938] 'dataRead1' is already implicitly declared on line 47 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:121]
+WARNING: [VRFC 10-2938] 'dataRead2' is already implicitly declared on line 47 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:122]
+WARNING: [VRFC 10-2938] 'imm' is already implicitly declared on line 48 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:129]
+WARNING: [VRFC 10-2938] 'target_add' is already implicitly declared on line 64 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:135]
+WARNING: [VRFC 10-2938] 'cf' is already implicitly declared on line 64 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:146]
+WARNING: [VRFC 10-2938] 'ALU_out' is already implicitly declared on line 65 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:148]
+WARNING: [VRFC 10-3248] data object 'ALU_out' is already declared [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:153]
+WARNING: [VRFC 10-9364] second declaration of 'ALU_out' is ignored [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:153]
+WARNING: [VRFC 10-2938] 'ALUsel' is already implicitly declared on line 157 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:161]
+WARNING: [VRFC 10-2938] 'MUX4x1Rs2_out' is already implicitly declared on line 142 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:172]
+WARNING: [VRFC 10-2938] 'inst_word' is already implicitly declared on line 34 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:206]
+WARNING: [VRFC 10-2938] 'MemDataRead' is already implicitly declared on line 74 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:207]
+WARNING: [VRFC 10-2938] 'And_out' is already implicitly declared on line 85 [C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/PP_CPU.v:224]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/RegFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/n_bit_reg_load_reset.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module n_bit_reg_load_reset
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sources_1/new/imports/src/shifter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shifter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayamakram/Desktop/Arch_Lab/ProjectM3/PP_CPU.srcs/sim_1/new/PP_CPU_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PP_CPU_tb
