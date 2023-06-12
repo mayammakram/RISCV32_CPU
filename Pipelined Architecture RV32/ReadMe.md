@@ -13,4 +13,4 @@ In order to test other programs, the program instructions should be written in a
 5. All forty instructions are fully implemented and are working properly according to the test suite developed for this phase.
 6. Bonus features:
 
-**Update the main module to take the program file path as input to allow the program file to be included in the test bench instead of updating the instruction memory directly. This provides a sense of transparency between the user and the modules.
+**Update the main module to take the program file path as input to allow the program file to be included in the test bench instead of updating the instruction memory directly. This provides a sense of transparency between the user and the modules.**
